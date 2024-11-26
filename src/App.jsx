@@ -31,6 +31,7 @@ import TypeScript_1 from './component/TypeScript/TypeScript_1';
 import TypeScript_Button_Test from './component/TypeScript/TypeScript_Button_Test';
 import Main from './component/TypeScript/Reuseable_Prop_Type/Main';
 import UseState_UserProfile from './component/TypeScript/UseState_UserProfile';
+import UseState_ToDo_Array from './component/TypeScript/UseState_ToDo_Array';
 
 const App = () => {
   return (
@@ -72,6 +73,9 @@ const App = () => {
 <TypeScript_Button_Test label="click" onclick={()=>console.log("clicked")} Disabled={true} />
 <Main/>
 <UseState_UserProfile/>
+
+<UseState_ToDo_Array/>
+
 
 <div className="AccordianData">
 {accordionData.map(({title,content})=>(
