@@ -33,6 +33,7 @@ import Main from './component/TypeScript/Reuseable_Prop_Type/Main';
 import UseState_UserProfile from './component/TypeScript/UseState_UserProfile';
 import UseState_ToDo_Array from './component/TypeScript/UseState_ToDo_Array';
 import UseRef_Form from './component/TypeScript/UseRef_Form';
+import UseRef_FocusInput from './component/TypeScript/UseRef_FocusInput';
 
 const App = () => {
   return (
@@ -77,6 +78,8 @@ const App = () => {
 
 <UseState_ToDo_Array/>
 <UseRef_Form/>
+
+<UseRef_FocusInput/>
 
 <div className="AccordianData">
 {accordionData.map(({title,content})=>(
