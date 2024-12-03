@@ -36,6 +36,7 @@ import UseRef_Form from './component/TypeScript/UseRef_Form';
 import UseRef_FocusInput from './component/TypeScript/UseRef_FocusInput';
 import MyProvider from './component/TypeScript/UseContext_typescript/MyContext';
 import Counter from './component/TypeScript/UseContext_typescript/Counter';
+import Reducer_counter from './component/TypeScript/Reducer_Typescript/Reducer_counter';
 
 const App = () => {
   return (
@@ -86,6 +87,7 @@ const App = () => {
 <MyProvider>
   <Counter/>
 </MyProvider>
+<Reducer_counter/>
 
 <div className="AccordianData">
 {accordionData.map(({title,content})=>(
