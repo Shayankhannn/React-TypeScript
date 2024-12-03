@@ -34,6 +34,8 @@ import UseState_UserProfile from './component/TypeScript/UseState_UserProfile';
 import UseState_ToDo_Array from './component/TypeScript/UseState_ToDo_Array';
 import UseRef_Form from './component/TypeScript/UseRef_Form';
 import UseRef_FocusInput from './component/TypeScript/UseRef_FocusInput';
+import MyProvider from './component/TypeScript/UseContext_typescript/MyContext';
+import Counter from './component/TypeScript/UseContext_typescript/Counter';
 
 const App = () => {
   return (
@@ -80,6 +82,10 @@ const App = () => {
 <UseRef_Form/>
 
 <UseRef_FocusInput/>
+
+<MyProvider>
+  <Counter/>
+</MyProvider>
 
 <div className="AccordianData">
 {accordionData.map(({title,content})=>(
